@@ -6,9 +6,9 @@ help:
 	@echo "  - serve  Regenerate all slides and serve on localhost"
 
 gen:
-	ipython nbconvert *.ipynb --to slides --FilesWriter.build_directory=$(BUILD)
+	ipython nbconvert $(BUILD)/*.ipynb --to slides --FilesWriter.build_directory=$(BUILD)
 
 serve:
-	ipython nbconvert *.ipynb --to slides --FilesWriter.build_directory=$(BUILD) --post serve
+	ipython nbconvert $(BUILD)/*.ipynb --to slides --FilesWriter.build_directory=$(BUILD) --post serve
 
 .PHONY: help
