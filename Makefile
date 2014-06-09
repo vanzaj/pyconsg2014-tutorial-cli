@@ -1,14 +1,12 @@
-BUILD=slides
-
 help:
 	@echo "Available commands:"
 	@echo "  - gen    Generate all slides"
 	@echo "  - serve  Regenerate all slides and serve on localhost"
 
 gen:
-	ipython nbconvert $(BUILD)/*.ipynb --to slides --FilesWriter.build_directory=$(BUILD)
+	cd slides && ipython nbconvert *.ipynb --to slides --config slides_conf.py
 
 serve:
-	ipython nbconvert $(BUILD)/*.ipynb --to slides --FilesWriter.build_directory=$(BUILD) --post serve
+	cd slides && ipython nbconvert *.ipynb --to slides --config slides_conf.py --post serve
 
 .PHONY: help
