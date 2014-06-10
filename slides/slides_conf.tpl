@@ -44,7 +44,7 @@ Reveal.initialize({
     //mouseWheel: false,
 
     // Transition style
-    transition: 'page', // default/cube/page/concave/zoom/linear/fade/none
+    //transition: 'page', // default/cube/page/concave/zoom/linear/fade/none
 
     // Transition speed
     //transitionSpeed: 'default', // default/fast/slow
