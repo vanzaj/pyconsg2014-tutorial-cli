@@ -7,6 +7,8 @@
 <script>
 
 Reveal.initialize({
+    width: 1099,
+    height: 800,
 
     // Display controls in the bottom right corner
     controls: true,
@@ -53,7 +55,7 @@ Reveal.initialize({
     //backgroundTransition: 'default', // default/linear/none
 
     // Theme
-    theme: 'sky' // available themes are in /css/theme
+    // theme: 'sky' // available themes are in /css/theme
 
 });
 

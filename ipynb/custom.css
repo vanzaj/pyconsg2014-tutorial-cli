@@ -1,0 +1,19 @@
+.reveal {
+    background:#f6f6ef;                
+    font-size: 200%;
+}
+
+.reveal h1, .reveal h2, .reveal h3 {
+    text-transform: none;
+    margin-bottom: 1em;
+}
+
+.reveal div.prompt {
+    visibility: hidden;
+}
+
+/*
+.reveal div.input_area>div.highlight>pre {
+    font-size: 150%;
+}
+*/                                                                                 

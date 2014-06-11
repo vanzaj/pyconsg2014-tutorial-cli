@@ -4,9 +4,9 @@ help:
 	@echo "  - serve  Regenerate all slides and serve on localhost"
 
 gen:
-	cd slides && ipython nbconvert *.ipynb --to slides --config slides_conf.py
+	cd ipynb && ipython nbconvert *.ipynb --to slides --config slides_conf.py
 
 serve:
-	cd slides && ipython nbconvert *.ipynb --to slides --config slides_conf.py --post serve
+	cd ipynb && ipython nbconvert *.ipynb --to slides --config slides_conf.py --post serve
 
 .PHONY: help
