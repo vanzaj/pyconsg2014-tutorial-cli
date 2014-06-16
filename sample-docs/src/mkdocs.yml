@@ -1,0 +1,8 @@
+site_name: Sample docs
+pages:
+- ['index.md', 'Main']
+- ['about.md', 'About']
+docs_dir: docs
+site_dir: build
+theme: readthedocs
+
