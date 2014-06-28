@@ -1,6 +1,7 @@
 # CLI until it CLIcks
 
-Tutorial slides for PyConSG 2014.
+Tutorial slides for PyConSG 2014.  
+(Static [html](http://nbviewer.ipython.org/github/vanzaj/pyconsg2014-tutorial-cli/blob/master/ipynb/tutorial.ipynb) version)
 
 ## Content
 
@@ -17,3 +18,4 @@ Tutorial slides for PyConSG 2014.
 4. Optional: install [live_reveal](https://github.com/damianavila/live_reveal)
    to have live slides of a running notebook (`ipython profile create slides`
    is probably a good idea)
+
